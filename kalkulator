@@ -1,0 +1,19 @@
+a = float(input ("podaj pierwszą liczbę"))
+b = float(input ("podaj drugą liczbę"))
+c = (input ("podaj działanie"))
+
+if c =="dodawanie":
+    wynik=a+b
+    print(wynik)
+elif c =="odejmowanie":
+    wynik=(a-b)
+    print(wynik)
+elif c =="mnozenie":
+    wynik=(a*b)
+    print(wynik)
+elif c =="dzielenie":
+    if b==0:
+        print("niedzielimy przez zero")
+    else:
+        wynik=(a/b)
+        print(wynik)
